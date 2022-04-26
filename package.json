@@ -1,0 +1,45 @@
+{
+  "name": "access-package",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "license:prod": "license-checker --summary --production --unknown --onlyAllow \"0BSD;Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC;MIT\"",
+    "license:all": "license-checker --summary --onlyAllow \"0BSD;Apache*;Apache-2.0;BSD-2-Clause;BSD-3-Clause;CC0-1.0;CC-BY-3.0;CC-BY-4.0;CC-BY-ND-4.0;ISC;MIT;Python-2.0\"",
+    "lint": "eslint --ext .cjs,.js,.json,.mjs,.ts,.vue --cache --cache-file .eslintcache --report-unused-disable-directives .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniFoldi/access-package.git"
+  },
+  "keywords": [
+    "user access",
+    "package management",
+    "tiered access",
+    "account tier"
+  ],
+  "author": "DaniFoldi",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/DaniFoldi/access-package/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/DaniFoldi/access-package#readme",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@danifoldi/eslint-plugin-eslint-presets": "^1.0.9",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "jest": "^27.5.1",
+    "license-checker": "^25.0.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
