@@ -1,0 +1,15 @@
+{
+  "include": [ "src/**/*" ],
+  "exclude": [ "**/*.test.ts" ],
+  "compilerOptions": {
+    "allowJs": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "strict": true,
+    "target": "es2022",
+    "types": [ "node", "@types/jest" ]
+  }
+}
