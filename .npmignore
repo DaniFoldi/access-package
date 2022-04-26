@@ -1,0 +1,12 @@
+.DS_Store
+.npmrc
+.git
+jest.config.cjs
+.eslintcache
+
+.git/
+.github/
+coverage/
+src/
+
+*.test.*
